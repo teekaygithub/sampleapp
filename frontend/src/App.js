@@ -1,12 +1,10 @@
-import './App.css';
-import './MyComponent';
-import MyComponent from './MyComponent';
+import Goals from './Goals.js';
 
 function App() {
   return (
     <div>
       <h1>Sample Application</h1>
-      <MyComponent />
+      <Goals />
     </div>
   );
 }
